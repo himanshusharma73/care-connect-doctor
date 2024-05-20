@@ -57,7 +57,7 @@ public class DoctorController {
         throw new BookingDtoException("Some error occurred try again");
     }
 
-    @PostMapping("/a")
+    @PostMapping("/checkups")
     public List<Checkup> getAllDetails(){
          return  checkUpRepo.findAll();
     }
