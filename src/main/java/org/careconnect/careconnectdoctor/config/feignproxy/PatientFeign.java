@@ -1,6 +1,6 @@
 package org.careconnect.careconnectdoctor.config.feignproxy;
 
-import org.careconnect.careconnectdoctor.response.ApiResponse;
+import io.swagger.v3.oas.models.responses.ApiResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
