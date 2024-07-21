@@ -5,4 +5,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CheckUpRepo extends JpaRepository<Checkup,Long> {
 
+    Boolean existsByAppointmentId(long appointmentId);
 }
